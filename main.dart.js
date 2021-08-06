@@ -52825,7 +52825,7 @@ $R:0,
 $S:0}
 Y.kD.prototype={
 NV:function(){},
-O:function(a,b){return B.a4M(new Y.PQ(this,new Y.PP(b)),A.xa(P.lA("https://backend.ngkafong.nets.hk/api/overall/")),t.f)}}
+O:function(a,b){return B.a4M(new Y.PQ(this,new Y.PP(b)),A.xa(P.lA("https://backend.ngkafong.nets.hk/api/overall")),t.f)}}
 Y.PP.prototype={
 $1:function(a){var s=P.au(["portfolio_id",a],t.N,t.S)
 K.n6(this.a).nn("/portfolio",s,t.X)},
