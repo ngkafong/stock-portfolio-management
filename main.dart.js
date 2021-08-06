@@ -52825,7 +52825,7 @@ $R:0,
 $S:0}
 Y.kD.prototype={
 NV:function(){},
-O:function(a,b){return B.a4M(new Y.PQ(this,new Y.PP(b)),A.xa(P.lA("http://23.94.100.114/overall/")),t.f)}}
+O:function(a,b){return B.a4M(new Y.PQ(this,new Y.PP(b)),A.xa(P.lA("https://backend.ngkafong.nets.hk/api/overall/")),t.f)}}
 Y.PP.prototype={
 $1:function(a){var s=P.au(["portfolio_id",a],t.N,t.S)
 K.n6(this.a).nn("/portfolio",s,t.X)},
@@ -52851,7 +52851,7 @@ $R:0,
 $S:0}
 S.ni.prototype={
 O:function(a,b){var s=t.f,r=s.a(T.n4(b,t.X).b.b)
-return B.a4M(new S.T4(new S.T1(b,r),new S.T3(b,r)),A.xa(P.lA(C.b.Z("http://23.94.100.114/portfolios/",J.cL(J.ax(r,"portfolio_id"))))),s)}}
+return B.a4M(new S.T4(new S.T1(b,r),new S.T3(b,r)),A.xa(P.lA(C.b.Z("https://backend.ngkafong.nets.hk/api/portfolios/",J.cL(J.ax(r,"portfolio_id"))))),s)}}
 S.T1.prototype={
 $0:function(){var s=P.au(["portfolio_id",J.ax(this.b,"portfolio_id")],t.N,t.z)
 K.n6(this.a).nn("/add-transaction",s,t.X)},
@@ -52883,7 +52883,7 @@ $R:0,
 $S:0}
 X.o_.prototype={
 O:function(a,b){var s=t.f,r=s.a(T.n4(b,t.X).b.b),q=J.ae(r)
-return B.a4M(new X.Xl(new X.Xk(b,r)),A.xa(P.lA(C.b.Z(C.b.Z("http://23.94.100.114/portfolio-stocks/",J.cL(q.j(r,"portfolio_id")))+",",q.j(r,"stock_symbol")))),s)}}
+return B.a4M(new X.Xl(new X.Xk(b,r)),A.xa(P.lA(C.b.Z(C.b.Z("https://backend.ngkafong.nets.hk/api/portfolio-stocks/",J.cL(q.j(r,"portfolio_id")))+",",q.j(r,"stock_symbol")))),s)}}
 X.Xk.prototype={
 $0:function(){var s=this.b,r=J.ae(s)
 s=P.au(["portfolio_id",r.j(s,"portfolio_id"),"stock_symbol",r.j(s,"stock_symbol")],t.N,t.z)
